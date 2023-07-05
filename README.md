@@ -61,7 +61,6 @@ While creating this project, the following ideas were R&D:
 -   PHP Generators.
 -   Laravel LazyCollections.
 -   The Process Component in Symfony to avoid timeout issues with Laravel jobs. This will allow multiple sub processes [synchronous or asynchronous].
--
 
 ## Notes
 
