@@ -35,20 +35,20 @@ Import extra large excel files with no repetitions in a very short time.
 -   Migrate and serve.
 
     ```
-    php artisan migrate
-    php artisan serve
+    $ php artisan migrate
+    $ php artisan serve
     ```
 
 -   Queue.
 
     ```
-    php artisan queue:listen --queue=csv
+    $ php artisan queue:listen --queue=csv
     ```
 
 -   Run this command to start the import process [and watch the queue window].
 
     ```
-    php artisan import:csv
+    $ php artisan import:csv
     ```
 
 If you wish to change the source CSV file, you can replace the file `products.csv` inside `/storage/csv/` with another file with the same name and structure but different data and then run the import command again.
